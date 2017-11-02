@@ -18,31 +18,58 @@
 
   <main class="tab_container">
     
-    <!--
-      THE TABS
-      the 'checked' attribute determines which tab will show when the page loads
-      the actual radio buttons for the input tag are hidden in the CSS
-    -->
-    <input id="tab1" type="radio" name="tabs" checked>
-    <!-- the *label* for the radio button forms the clickable tabs -->
-    <label for="tab1"><i class="fa fa-code"></i><span>HTML5</span></label>
+  <!--
+    THE TABS
+    the 'checked' attribute determines which tab will show when the page loads
+    the actual radio buttons for the input tag are hidden in the CSS
+  -->
+  <input id="tab1" type="radio" name="tabs" checked>
+  <!-- the *label* for the radio button forms the clickable tabs -->
+  <label for="tab1"><i class="fa fa-code"></i><span>HTML5</span></label>
 
-    <input id="tab2" type="radio" name="tabs">
-    <label for="tab2"><i class="fa fa-hashtag"></i><span>CSS</span></label>
+  <input id="tab2" type="radio" name="tabs">
+  <label for="tab2"><i class="fa fa-hashtag"></i><span>CSS</span></label>
 
-    <input id="tab3" type="radio" name="tabs">
-    <label for="tab3"><i class="fa fa-bug"></i><span>JavaScript</span></label>
+  <input id="tab3" type="radio" name="tabs">
+  <label for="tab3"><i class="fa fa-bug"></i><span>JavaScript</span></label>
 
-    <!-- content for tab 1: HTML5 -->
-    <section id="content1" class="tab-content">
-      <header>
-        <h2>HTML5</h2>
-      </header>
-
-      <table>
-        <!-- one row of table header tags -->
+  <!-- content for tab 1: HTML5 -->
+  <section id="content1" class="tab-content">
+   <header>
+    <h2>HTML5</h2>
+   </header>
+   
+   <table>
+    <tr> 
+      <th>No.</th>
+      <th>Information about HTML</th>
+    </tr>
         <!-- 5 rows of table data tags -->
-      </table>
+      <tr>
+        <td>1</td>
+        <td>Stands for Hyper Text Markup Language</td>
+      </tr>
+      
+      <tr>
+        <td>2</td>
+        <td>Latest Version of HTML is HTML5</td>
+      </tr>
+      
+      <tr>
+        <td>3</td>
+        <td>HTML5 standard tags: body, header</td>
+      </tr>
+      
+      <tr>
+        <td>4</td>
+        <td>Closing tags are important, otherwise it would mess the content beneath up</td>
+      </tr>  
+      
+      <tr>
+        <td>5</td>
+        <td>A way to tell if a webpage is in HTML5 is through the doctype declaration at the top for html5 it is !DOCTYPE html</td>
+      </tr>
+    </table>
 
       <footer>
         <p><a href="#">add an optional link to an HTML5 article here</a></p>
@@ -56,7 +83,10 @@
       </header>
 
       <ul>
-        <!-- 5 li tags -->
+       <li>Stands for Cascading Style Sheet</li>
+       <li>Allows web sites to be styled</li>
+       <li>Can be in an external .css file or in the actual html file</li>
+       <li>Can style everything from headers to lists</li>
       </ul>
 
       <footer>
